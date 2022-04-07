@@ -1,4 +1,3 @@
-
 import styles from "./style.module.css";
 
 const User = ({children}) => children;

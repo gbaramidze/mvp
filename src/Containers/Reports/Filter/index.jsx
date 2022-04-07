@@ -1,7 +1,7 @@
 import Select from "../../../Components/Select";
 import Datepicker from "../../../Components/Datepicker";
 import Button from "../../../Components/Button";
-import React,{useState} from "react";
+import {useState} from "react";
 
 const Filter = ({
   searchCriteria,

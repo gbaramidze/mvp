@@ -1,4 +1,3 @@
-
 import styles from "./style.module.css";
 
 const items = [
@@ -9,18 +8,17 @@ const items = [
 	"logout",
 ]
 
-const Sidebar = () => {
-	return (
-		<aside className={styles.sidebar}>
-			{
-				items.map(item => (
-					<span key={item} className={styles.icon}>
-						<img src={`./static/sidebar/${item}.png`} alt={item} />
+const Sidebar = () => (
+	<aside className={styles.sidebar}>
+		{
+			items.map(item => (
+				<span key={item} className={styles.icon}>
+						<img src={`./static/sidebar/${item}.png`} alt={item}/>
 					</span>
-				))
-			}
-		</aside>
-	)
-}
+			))
+		}
+	</aside>
+)
+
 
 export default Sidebar;

@@ -1,4 +1,4 @@
-import React, {useCallback} from "react";
+import {useCallback} from "react";
 import styles from "./style.module.css";
 
 const ReportTable = ({reports, gateways, type}) => {

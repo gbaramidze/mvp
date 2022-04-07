@@ -1,4 +1,3 @@
-
 import styles from "./style.module.css";
 
 const PageHeader = ({header, subheader, placement}) => (
