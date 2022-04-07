@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+select, input::placeholder, input, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+:root {
+  /* sizes */
+  --lg: 1440px;
+  --bu: 12px;
+  /* colors */
+  --primary: #1BC5BD;
+  --secondary: #005B96;
+  --avatarBG: #F6CA65;
+  --buttonTextColor: #FFF;
+  --defaultTextColor: #7E8299;
+  --headerColor: #011F4B;
+  --reportBG: #F1FAFE;
+}

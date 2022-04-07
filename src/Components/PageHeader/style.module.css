@@ -1,0 +1,21 @@
+.pageHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header {
+    font-size: calc(var(--bu) * 2);
+    color: var(--headerColor);
+    margin: unset;
+}
+
+.subheader {
+    font-size: 16px;
+    color: var(--defaultTextColor);
+    margin: unset;
+}
+
+.center {
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 2px solid #F3F6F9;
+    padding: 0 calc(var(--bu) * 3);
+    margin-bottom: calc(var(--bu) * 3);
+}
+
+.nav .right {
+    margin-left: auto;
+}

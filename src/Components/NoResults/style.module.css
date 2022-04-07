@@ -1,0 +1,12 @@
+.wrapper {
+    max-width: 470px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.wrapper img {
+    margin-top: calc(var(--bu) * 4);
+}

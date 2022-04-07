@@ -1,0 +1,8 @@
+.select {
+    background: var(--primary);
+    padding: var(--bu);
+    border-radius: 5px;
+    border: none;
+    margin-right: calc(var(--bu) * 2);
+    color: var(--buttonTextColor)
+}

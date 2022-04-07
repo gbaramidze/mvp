@@ -1,0 +1,3 @@
+.switcher {
+    margin-left: calc(var(--bu) * 3);
+}

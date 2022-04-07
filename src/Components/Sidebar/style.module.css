@@ -1,0 +1,16 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 calc(var(--bu) * 3);
+}
+
+.icon {
+    margin-bottom: calc(var(--bu) * 2);
+    cursor: pointer;
+    transition: ease all 100ms;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+

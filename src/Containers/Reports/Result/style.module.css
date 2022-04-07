@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: calc(100% - var(--bu) * 2);
+}
+
+.wrapper {
+    background: var(--reportBG);
+    padding: calc(var(--bu) * 2);
+    border-radius: 10px;
+    margin: calc(var(--bu) * 2) 0;
+    text-align: left;
+    flex: 0 0 45%
+}
+
+.total {
+    background: var(--reportBG);
+    padding: calc(var(--bu) * 2);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.fullWidth {
+    flex: 0 0 calc(100% -  calc(var(--bu) * 2));
+    margin: calc(var(--bu) * 2) 0 calc(var(--bu) * 2) 0;
+}
+
+.chartWrapper {
+    flex: 1 1 55%;
+    padding: calc(var(--bu) * 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    margin-bottom: calc(var(--bu) * 3);
+}
+.project:after {
+    content: '|';
+    margin: 0 6px;
+}

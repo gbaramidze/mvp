@@ -1,0 +1,23 @@
+.table {
+    width: calc(100% - var(--bu) * 2);
+    margin: var(--bu);
+    border-spacing: 0;
+}
+
+.table tr {
+    margin-top: calc(var(--bu) / 2)
+}
+.table tr:nth-child(even) td, .table tr:nth-child(odd) th {
+    background: var(--buttonTextColor);
+}
+
+.table td, .table th {
+    padding: calc(var(--bu) / 2) calc(var(--bu) * 2);
+    font-weight: 400;
+    color: var(--headerColor);
+}
+
+.table thead tr th {
+    position: sticky;
+    top: 0;
+}

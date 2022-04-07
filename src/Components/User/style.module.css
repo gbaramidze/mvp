@@ -1,0 +1,12 @@
+.avatar {
+    border-radius: 5px;
+    background: var(--avatarBG);
+    color:  var(--buttonTextColor);
+    font-size: calc(var(--bu) * 2);
+    padding: calc(var(--bu) / 1.5);
+    margin: 0 var(--bu)
+}
+
+.name {
+    color: var(--secondary);
+}

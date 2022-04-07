@@ -1,0 +1,22 @@
+.accordion {
+    margin-bottom: 5px;
+}
+
+.header {
+    display: flex;
+    border-radius: 10px;
+    background: var(--buttonTextColor);
+    padding: calc(var(--bu) * 2);
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.content {
+    transition: ease all 300ms;
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.content.closed {
+    max-height: 0;
+}
